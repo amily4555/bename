@@ -1,5 +1,5 @@
 
-n (window, undefined) {
+(function (window, undefined) {
     // 随机数
     var rd = function (l) {
         return Math.floor(Math.random() * (l || 10));
